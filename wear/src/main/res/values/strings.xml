@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hang-O-Lyzer</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <style name="AppTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowSwipeToDismiss">false</item>
+    </style>
+</resources>
