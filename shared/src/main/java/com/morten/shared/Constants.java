@@ -11,6 +11,8 @@ public final class Constants {
     public static final int PHONE_ONLY_ID = 3;
     public static final int BOTH_ID = 4;
 
+    public static final int DRINK_ID = 42;
+
     public static final String BOTH_PATH = "/both";
     public static final String WATCH_ONLY_PATH = "/watch-only";
     public static final String KEY_NOTIFICATION_ID = "notification-id";
