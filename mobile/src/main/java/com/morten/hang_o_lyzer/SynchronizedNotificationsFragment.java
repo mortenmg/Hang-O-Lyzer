@@ -68,7 +68,7 @@ public class SynchronizedNotificationsFragment extends Fragment
                 return true;
             case Constants.BOTH_ID:
                 buildMirroredNotifications(
-                        getString(R.string.phone_both), getString(R.string.watch_both), now());
+                        "AlkoTjek", "AlkoTjek", "Start logging?");
                 System.out.println("Both pushed");
                 return true;
         }
@@ -114,6 +114,7 @@ public class SynchronizedNotificationsFragment extends Fragment
             putDataMapRequest.getDataMap().putString(Constants.KEY_TITLE, title);
             PutDataRequest request = putDataMapRequest.asPutDataRequest();
             request.setUrgent();
+            Log.d("WearNotify:", " Wear notification was built to path: " + path);
             Wearable.DataApi.putDataItem(mGoogleApiClient, request)
                     .setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
                         @Override
