@@ -127,7 +127,7 @@ public class NotificationUpdateService extends WearableListenerService
         PendingIntent pendingViewIntent = PendingIntent.getActivity(this, 0, viewIntent, 0);
 
         Notification.Builder builder = new Notification.Builder(this)
-                .setSmallIcon(R.drawable.common_google_signin_btn_icon_dark)
+                .setSmallIcon(R.mipmap.ic_launcher)
                 .setContentTitle(title)
                 .setContentText(content)
                 .setContentIntent(pendingViewIntent)

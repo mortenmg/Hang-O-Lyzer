@@ -62,7 +62,7 @@ public class SynchronizedNotificationsFragment extends Fragment
                 System.out.println("Phone only pushed");
                 return true;
             case Constants.WATCH_ONLY_ID:
-                buildWearableOnlyNotification(getString(R.string.wear_only), now(),
+                buildWearableOnlyNotification("AlkoTjek", "Start logging?",
                         Constants.WATCH_ONLY_PATH);
                 System.out.println("Watch only pushed");
                 return true;

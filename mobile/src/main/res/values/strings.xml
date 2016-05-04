@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Hang-O-Lyzer</string>
+    <string name="app_name">AlkoTjek</string>
     <string name="action_settings">Settings</string>
     <string name="notify_both">Notify both</string>
     <string name="notify_watch">Notify watch</string>

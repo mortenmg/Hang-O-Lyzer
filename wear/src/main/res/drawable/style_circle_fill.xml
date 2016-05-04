@@ -3,31 +3,31 @@
 
     <item android:id="@android:id/secondaryProgress">
         <rotate
-            android:fromDegrees="270"
+            android:fromDegrees="180"
             android:pivotX="50%"
             android:pivotY="50%"
             android:toDegrees="270" >
             <shape
-                android:innerRadiusRatio="3"
+                android:innerRadiusRatio="2.3"
                 android:shape="ring"
                 android:thicknessRatio="14.0"
                 android:useLevel="true" >
                 <gradient
-                    android:centerColor="#A9E2F3"
-                    android:endColor="#A9E2F3"
-                    android:startColor="#A9E2F3"
+                    android:centerColor="#646464"
+                    android:endColor="#969696"
+                    android:startColor="#969696"
                     android:type="sweep" />
             </shape>
         </rotate>
     </item>
     <item android:id="@android:id/progress">
         <rotate
-            android:fromDegrees="270"
+            android:fromDegrees="120"
             android:pivotX="50%"
             android:pivotY="50%"
-            android:toDegrees="270" >
+            android:toDegrees="120" >
             <shape
-                android:innerRadiusRatio="3"
+                android:innerRadiusRatio="2.3"
                 android:shape="ring"
                 android:thicknessRatio="14.0"
                 android:useLevel="true" >
